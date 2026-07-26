@@ -1,0 +1,20 @@
+mkdir devops-git-basics
+cd devops-git-basics
+
+git init
+
+git add .
+git commit -m "Initial commit with README and version"
+
+git remote add origin https://github.com/your-username/devops-git-basics.git
+
+git branch -M main
+
+git push -u origin main
+
+git add version.txt
+git commit -m "Updated version to v1.0.1"
+
+git push
+
+git log --oneline
